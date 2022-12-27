@@ -1,0 +1,37 @@
+a {
+    text-decoration: none;
+    transition: all 1s;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+.btn-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    height: 800px;
+    width: 100%;
+}
+
+.btn {
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 2px 3px 4px black;
+}
+
+.btn-primary {
+    background-color: rgb(87, 87, 255);
+}
+
+.btn-danger {
+    background-color: rgb(235, 84, 84);
+}
+
+.btn-warning {
+    background-color: rgb(122, 255, 92);
+}
